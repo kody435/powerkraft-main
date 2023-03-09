@@ -59,14 +59,27 @@ export default
             of: [
               {
                 type: 'block',
+                // Only allow these block styles
+                styles: [
+                  {title: 'Normal', value: 'normal'},
+                  { title: 'H2', value: 'h2' },
+                  { title: 'H3', value: 'h3' },
+                  { title: 'H4', value: 'h4' },
+                  { title: 'H5', value: 'h5' },
+                  { title: 'H6', value: 'h6' },
+                  { title: 'Quote', value: 'blockquote' }
+                ],
+                // Only allow numbered lists
+                lists: [
+                  {title: 'Numbered', value: 'number'}
+                ],
                 marks: {
+                  // Only allow these decorators
                   decorators: [
-                    { title: 'Strong', value: 'strong' },
-                    { title: 'Emphasis', value: 'em' },
-                    { title: 'Code', value: 'code' },
-                    { title: 'Highlight', value: 'highlight' }
-                  ]
-                },
+                    {title: 'Bold', value: 'strong'},
+                    {title: 'Italics', value: 'em'}
+                  ],
+                }
               }
             ],
           },
