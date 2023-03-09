@@ -53,9 +53,9 @@ export default
           }),
 
           {
-            name: "content",
+            name: "description",
             type: "array",
-            title: "Content",
+            title: "Description",
             of: [
               {
                 type: 'block',
