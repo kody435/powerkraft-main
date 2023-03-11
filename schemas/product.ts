@@ -53,8 +53,7 @@ export default {
       description:
         'This is the images of the product, it will be used as the gallery of the product',
     }),
-
-    {
+    defineArrayMember({
       name: 'description',
       type: 'array',
       title: 'Description',
@@ -79,7 +78,7 @@ export default {
           },
         },
       ],
-    },
+    }),
     defineArrayMember({
       name: 'amazonLink',
       title: 'Amazon Link',
@@ -87,11 +86,11 @@ export default {
       description:
         'This is the amazon link of the product, it will be used to redirect the user to the amazon page of the product',
     }),
-    {
+    defineArrayMember({
       name: 'similarProduct',
       title: 'Similar Products',
       type: 'array',
       of: [{type: 'reference', to: {type: 'product'}}],
-    },
+    }),
   ],
 }
