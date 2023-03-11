@@ -10,8 +10,8 @@ export default {
                     description: "Just for the reference of objects",
                 },
         {
-            name: "images",
-            title: "Images",
+            name: "sliderImages",
+            title: "Slider Images",
             type: "array",
             of: [
                 {
