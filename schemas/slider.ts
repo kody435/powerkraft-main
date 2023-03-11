@@ -3,11 +3,17 @@ export default {
         title: "Slider",
         type: "document",
         fields: [
-            {
-            title: 'Url',
-            name: 'url',
-            type: 'image',
-            of: [{type: 'string'}]
-            },
+            name: "images",
+            title: "Images",
+            type: "array",
+            of: [
+              {
+                type: "image",
+                options: {
+                  hotspot: true,
+                },
+              },
+            ],
+            description: "This is the images of the product, it will be used as the gallery of the product",
         ]
 }
