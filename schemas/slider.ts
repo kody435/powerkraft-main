@@ -7,10 +7,16 @@ export default {
             title: "Images",
             type: "array",
             of: [
-              {
-                type: "image",
-                options: {
-                  hotspot: true,
+                {
+                    name: "title",
+                    title: "Title",
+                    type: "string",
+                    description: "Just for the reference of objects",
+                }
+                {
+                        type: "image",
+                        options: {
+                        hotspot: true,
                 },
               },
             ],
