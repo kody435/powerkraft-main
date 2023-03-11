@@ -14,6 +14,6 @@ export default {
                 },
               },
             ],
-            description: "This is the images of the product, it will be used as the gallery of the product",
+            description: "These images will show up in Slider on Home page",
         ]
 }
