@@ -4,8 +4,8 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'title',
-      title: 'Title',
+      name: 'titleSlider',
+      title: 'Title of Slider',
       type: 'string',
       description: 'Just for the reference of objects',
     },
