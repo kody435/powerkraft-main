@@ -21,7 +21,7 @@ export default {
           },
         },
       ],
-      description: 'These images will show up in Slider on Home page',
+      description: 'SIZE : 1600x716px.   These images will show up in Slider on Home page',
     },
   ],
 }
