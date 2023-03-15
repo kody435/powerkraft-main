@@ -1,5 +1,7 @@
 import {defineArrayMember, defineField} from 'sanity'
 
+// 
+
 export default {
   name: 'product',
   title: 'Products',
@@ -20,6 +22,13 @@ export default {
       },
       description:
         'This is the slug of the product, it will be used to create the url of the product',
+    }),
+    defineField({
+      name: 'category',
+      title: 'Category',
+      type: 'string',
+      description:
+        'This is the category of the product, it will be used to filter the products',
     }),
     defineField({
       name: 'mainImage',
