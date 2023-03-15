@@ -21,6 +21,12 @@ export default {
       description:
         'This is the slug of the product, it will be used to create the url of the product',
     }),
+    {
+      name: "categories",
+      title: "Categories",
+      type: "array",
+      of: [{ type: "reference", to: { type: "category" } }],
+    },
     defineField({
       name: 'mainImage',
       title: 'Main Image',
